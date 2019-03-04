@@ -28,9 +28,9 @@ Maven build 3.0+
 2. The application is by default launched on port 8080. If you want to run the application on a different port, use the below command:
     ```
     (On Unix-based)
-    ./java -jar -Dspring.profiles.active=local -Dserver.port=<port> -Denv=local -Dspring.application.name=DiagnosticService
+    ./java -jar -Dspring.profiles.active=local -Dserver.port=<port> -Denv=local -Dspring.application.name=ConnectionService
     (On Windows)
-    java -jar  -Dspring.profiles.active=local -Dserver.port=<port> -Denv=local -Dspring.application.name=DiagnosticService
+    java -jar  -Dspring.profiles.active=local -Dserver.port=<port> -Denv=local -Dspring.application.name=ConnectionService
     ```
 3. Verify if the application launched successfully by going to the Swagger page:
     `http://localhost:<port>/swagger-ui.html`
